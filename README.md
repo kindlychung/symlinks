@@ -24,4 +24,4 @@ symlinks [-cdorstv] dirlist
 
 I just made one change to the original source, so that it can compile on my MacBook Pro:
 
-* In symlinks.c, `#include <malloc.h>` is changed into `#include <malloc.h>`
+* In symlinks.c, `#include <malloc.h>` is changed into `#include <malloc/malloc.h>`
